@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  
+}
+.someDiv {
+  margin-top: 10px; 
+   
+
+  
+}
+.textarea-adress
+{
+  margin-top: 12px;
+  appearance: none;
+  border: none; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1b1b1b; 
+  line-height: 1.4;
+  font-size: 12px;
+  font-weight: 600; 
+  height: 200px;
+  width: 380px;
+  padding: 17px;
+  border-radius: 12px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  transition: all ease 100ms; 
+}
+ 
+.input
+{   
+  margin-top: 12px;
+  appearance: none;
+  border: none; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1b1b1b;
+  display: inline-flex;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  height: 38px;
+  width: 100px;
+  padding: 17px;
+  border-radius: 12px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  transition: all ease 100ms; 
+  
+}
+
+body {
+  margin: 0;
+  font-family: SFRounded, ui-rounded, "SF Pro Rounded";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right,  #7A70FF,#e9b4b4);
+}
+
+
+.burger 
+{    
+  position: fixed;  
+  height: 30px; 
+  top: 36px;
+}
+ 
+.menu-item
+{     
+  
+  flex-wrap: wrap;    
+  width: 100%; 
+
+  padding: 0em 2.5em 0em ;
+  
+  font-size: 1.55em;
+  font-style: normal; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:none;
+  
+  font-weight: 600;
+}
+
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 800px;
+  max-width: 700px;
+
+  margin: 0 auto; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30px;
+  
+}
+
+.button  {
+  appearance: none;
+  border: none; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1b1b1b;
+  display: inline-flex;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 600;
+  height: 38px;
+  padding: 0 33px;
+  border-radius: 12px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  transition: all ease 100ms;
+  
+}
+
+button:not(:disabled):hover {
+  transform: scale(1.04)
+}
+
+button[data-mint-loading="true"] {
+  animation-name: pulse;
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-color: #FF6257; 
+}
+
+ 
+
+   
+
+h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 34px; }
+h2 { font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;}
+a { color: inherit }
+
+@keyframes pulse {
+  0% { opacity: 0 }
+  100% { opacity: '100%' }
+}
